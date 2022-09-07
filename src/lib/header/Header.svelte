@@ -14,22 +14,22 @@
           <img class="h-10 w-auto" src={logo} alt="">
         </a>
         <div class="ml-10 hidden space-x-8 lg:block">
-          <a href="#" class="text-base font-medium  hover:text-green-700">About</a>
+          <a href="/" class="text-base font-medium  hover:text-green-700">About</a>
 
-          <a href="#" class="text-base font-medium  hover:text-green-700">Services</a>
+          <a href="/services" class="text-base font-medium  hover:text-green-700">Services</a>
 
-          <a href="#" class="text-base font-medium  hover:text-green-700">Contact</a>
+          <a href="/" class="text-base font-medium  hover:text-green-700">Contact</a>
 
         </div>
       </div>
  
     </div>
     <div class="flex flex-wrap justify-center space-x-6 py-4 lg:hidden">
-			<a href="#" class="text-base font-medium  hover:text-green-700">About</a>
+			<a href="/" class="text-base font-medium  hover:text-green-700">About</a>
 
-			<a href="#" class="text-base font-medium  hover:text-green-700">Services</a>
+			<a href="/services" class="text-base font-medium  hover:text-green-700">Services</a>
 
-			<a href="#" class="text-base font-medium  hover:text-green-700">Contact</a>
+			<a href="/" class="text-base font-medium  hover:text-green-700">Contact</a>
     </div>
   </nav>
 </header>
