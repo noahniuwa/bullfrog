@@ -8,8 +8,7 @@
 </main>
 
 <footer>
-	<div class="text-center text-xs pt-10">Copyright 2022 Bullfrog Professional Services</div>
-</footer>
+ </footer>
 
 <style>
  
