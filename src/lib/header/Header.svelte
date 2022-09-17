@@ -1,24 +1,23 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import logo from './bullfrog-logo.svg';
+	import logo from './bullfrog-logo.png';
 </script>
 
-<header>
 	 <!-- This example requires Tailwind CSS v2.0+ -->
-<header class="">
-  <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Top">
-    <div class="flex w-full items-center justify-center  py-6">
+<header>
+  <nav class="ml-20 mr-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Top">
+    <div class="text-white font-mono flex w-full items-left justify-left  py-6">
       <div class="flex items-center">
         <a href="#">
           <span class="sr-only">Your Company</span>
           <img class="h-10 w-auto" src={logo} alt="">
         </a>
         <div class="ml-10 hidden space-x-8 lg:block">
-          <a href="/" class="text-base font-medium  hover:text-green-700">About</a>
+          <a href="/" class="text-base font-medium  hover:text-green-500">About</a>
 
-          <a href="/services" class="text-base font-medium  hover:text-green-700">Services</a>
+          <a href="/services" class="text-base font-medium  hover:text-green-500">Services</a>
 
-          <a href="/" class="text-base font-medium  hover:text-green-700">Contact</a>
+          <a href="/" class="text-base font-medium  hover:text-green-500">Contact</a>
 
         </div>
       </div>
@@ -34,8 +33,9 @@
   </nav>
 </header>
 
-</header>
 
 <style>
+
+ 
  
 </style>
