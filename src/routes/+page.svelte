@@ -1,6 +1,9 @@
 <script lang="ts">
 	import help from './images/help.png';
 	import Header from '$lib/header/Header.svelte';
+	import cryptoImage from "./images/cryptocurrency.png"
+	import marketingGif from "./images/marketing.gif"
+
 </script>
 
 <svelte:head>
@@ -11,9 +14,8 @@
 <section class="animated-bg">
 	<!-- This example requires Tailwind CSS v2.0+ -->
 	<Header />
-		<div
-			class="mr-auto drop-shadow-[0_15px_15px_rgba(0,0,0,0.5)] max-w-xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8"
-		>
+	<div class="max-w-4xl mt-10 mx-auto flex">
+		<div class="  drop-shadow-[0_15px_15px_rgba(0,0,0,0.5)] max-w-xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
 			<h2
 				class="typing text-left drop-shadow pb-10 text-3xl font-mono font-bold tracking-tight text-white sm:text-4xl"
 			>
@@ -22,6 +24,9 @@
 				</span>
 			</h2>
 		</div>
+		<img class="h-auto w-96" src={marketingGif} alt="">
+	</div>
+	
 
 </section>
 <section class="bg-2">
