@@ -11,27 +11,27 @@
       <div class="flex items-center">
         <a href="#">
           <span class="sr-only">Your Company</span>
-          <img class="h-10 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=white" alt="">
+          <img class="h-10 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=black" alt="">
         </a>
         <div class="ml-10 hidden space-x-8 lg:block">
-          <a href="#" class="text-base font-medium text-white hover:text-green-500">About</a>
+          <a href="#" class="text-base font-medium text-black hover:text-green-500">About</a>
 
-          <a href="#" class="text-base font-medium text-white hover:text-green-500">Services</a>
+          <a href="#" class="text-base font-medium text-black hover:text-green-500">Services</a>
 
-          <a href="#" class="text-base font-medium text-white hover:text-green-500">Contact</a>
+          <a href="#" class="text-base font-medium text-black hover:text-green-500">Contact</a>
 
         </div>
       </div>
       <div class="ml-10 space-x-4">
-        <a href="#" class="inline-block rounded-lg border border-transparent bg-white py-1.5 px-3 text-base font-medium text-black hover:bg-green-50">Get in touch</a>
+        <a href="#" class="inline-block rounded-lg border border-transparent bg-black py-1.5 px-3 text-base font-medium text-white hover:bg-yellow-900">Get in touch</a>
       </div>
     </div>
     <div class="flex flex-wrap justify-center space-x-6 py-4 lg:hidden">
-      <a href="#" class="text-base font-medium text-white hover:text-green-500">About</a>
+      <a href="#" class="text-base font-medium text-black hover:text-green-500">About</a>
 
-          <a href="#" class="text-base font-medium text-white hover:text-green-500">Services</a>
+          <a href="#" class="text-base font-medium text-black hover:text-green-500">Services</a>
 
-          <a href="#" class="text-base font-medium text-white hover:text-green-500">Contact</a>
+          <a href="#" class="text-base font-medium text-black hover:text-green-500">Contact</a>
 
     </div>
   </nav>
