@@ -14,24 +14,22 @@
           <img class="h-6 w-auto" src={logo} alt="">
         </a>
         <div class="ml-10 hidden space-x-8 lg:block">
-          <a href="#" class="text-base font-medium text-black hover:text-yellow-500">ABOUT</a>
+          <a href="#" class="text-xl font-medium text-black hover:text-yellow-500">ABOUT</a>
 
-          <a href="#" class="text-base font-medium text-black hover:text-yellow-500">SERVICES</a>
+          <a href="#" class="text-xl font-medium text-black hover:text-yellow-500">SERVICES</a>
 
-          <a href="#" class="text-base font-medium text-black hover:text-yellow-500">CONTACT</a>
+          <a href="#" class="text-xl font-medium text-black hover:text-yellow-500">CONTACT</a>
 
         </div>
       </div>
-      <div class="ml-10 space-x-4">
-        <a href="#" class="inline-block rounded-lg border border-transparent bg-black py-1.5 px-3 text-base font-medium text-white hover:bg-yellow-900">Get in touch</a>
-      </div>
+ 
     </div>
     <div class="flex flex-wrap justify-center space-x-6 py-4 lg:hidden">
-      <a href="#" class="text-base font-medium text-black hover:text-yellow-500">ABOUT</a>
+      <a href="#" class="text-xl font-medium text-white hover:text-yellow-500">ABOUT</a>
 
-          <a href="#" class="text-base font-medium text-black hover:text-yellow-500">SERVICES</a>
+          <a href="#" class="text-xl font-medium text-white hover:text-yellow-500">SERVICES</a>
 
-          <a href="#" class="text-base font-medium text-black hover:text-yellow-500">CONTACT</a>
+          <a href="#" class="text-xl font-medium text-white hover:text-yellow-500">CONTACT</a>
 
     </div>
   </nav>
