@@ -17,7 +17,7 @@
 	<div class="max-w-4xl mt-10 pt-10 mx-auto flex">
 		<div class="z-10 drop-shadow-[0_15px_15px_rgba(0,0,0,0.5)] max-w-xl  py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
 			<h2
-				class=" text-left drop-shadow pb-10 text-3xl font-mono font-bold tracking-tight text-white sm:text-4xl"
+				class=" sm:text-left text-center drop-shadow pb-10 text-3xl font-mono font-bold tracking-tight text-white sm:text-4xl"
 			>
 				<span class="block">We help tech startups <span class="text-yellow-300 flicker-4">communicate</span> their ideas so they
 					can focus on building!
