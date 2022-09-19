@@ -40,26 +40,25 @@
 
       <div class="transition-opacity lg:opacity-0 absolute right-0 top-0 z-20 mt-3 w-screen max-w-xs px-2 {menuOpen ? "opicity-100" : "opacity-0"} ">
         <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
-       
-
+      
           <div class="z-30 relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
             <div>
               <img on:click={handleClick} class="h-8 cursor-pointer border-black border rounded absolute right-2 top-2" alt="close icon" src={xIcon}>
 
             </div>
             <a href="#" class="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50">
-              <p class="text-base font-medium text-gray-900">About</p>
-              <p class="mt-1 text-sm text-gray-500">Learn about tips, product updates and company culture.</p>
+              <p class="text-base font-mono text-gray-900">ABOUT</p>
+              <p class="mt-1 text-sm text-gray-500">Get to know the Beekeeper team and philosophy.</p>
             </a>
     
             <a href="#" class="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50">
-              <p class="text-base font-medium text-gray-900">Services</p>
-              <p class="mt-1 text-sm text-gray-500">Get all of your questions answered in our forums of contact support.</p>
+              <p class="text-base font-mono text-gray-900">SERVICES</p>
+              <p class="mt-1 text-sm text-gray-500">Beekeeper's menu of services to help take your business to the next level.</p>
             </a>
     
             <a href="#" class="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50">
-              <p class="text-base font-medium text-gray-900">Contact</p>
-              <p class="mt-1 text-sm text-gray-500">Learn how to maximize our platform to get the most out of it.</p>
+              <p class="text-base font-mono text-gray-900">CONTACT</p>
+              <p class="mt-1 text-sm text-gray-500">Get in touch to set up a consultation.</p>
             </a>
      
           </div>
