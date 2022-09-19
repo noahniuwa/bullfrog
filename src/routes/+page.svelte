@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Bullfrog</title>
+	<title>Beekeeper</title>
 	<meta name="description" content="Bullfrog professional services" />
 </svelte:head>
 
