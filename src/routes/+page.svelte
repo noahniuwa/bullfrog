@@ -24,7 +24,7 @@
 				</span>
 			</h2>
 		</div>
-		<img class="sm:brightness-100 brightness-50 h-96 sm:opacity-100 opacity-70 sm:relative z-0 sm:bottom-0 sm:left-0 bottom-10 left-10 absolute" src={marketingGif} alt="">
+		<img class="sm:brightness-100 brightness-50 h-96 sm:opacity-100 opacity-70 sm:relative z-0    absolute" src={marketingGif} alt="">
 	</div>
 	
 
