@@ -38,7 +38,7 @@
       </a>
       <img on:click={handleClick} class="border-2 cursor-pointer border-black rounded absolute w-8 right-4 top-6 sm:hidden" src={burgerIcon} alt="menu">
 
-      <div class="lg:hidden absolute right-0 top-0 z-20 mt-3 w-screen max-w-xs px-2 {menuOpen ? "block" : "hidden"} ">
+      <div class="transition-opacity lg:opacity-0 absolute right-0 top-0 z-20 mt-3 w-screen max-w-xs px-2 {menuOpen ? "opicity-100" : "opacity-0"} ">
         <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
        
 
