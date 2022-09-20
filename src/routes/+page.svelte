@@ -45,7 +45,7 @@
     <div class="text-center">
       <h2 data-aos="fade-right" class="text-lg  font-semibold text-amber-900">About</h2>
       <p data-aos="fade-right" class="mt-1 text-4xl max-w-4xl mx-auto font-bold tracking-tight text-amber-900 sm:text-5xl lg:text-6xl">Global, experienced, multidisciplinary.</p>
-      <p data-aos="fade-left" class="mx-auto mt-5 max-w-xl text-xl text-amber-900">Our team of professionals has years of in-depth experience with communications work at fast paced tech and web3 startups. We specialize in <strong>community managment</strong>, <strong>token management</strong>, <strong>web development</strong>, <strong>content creation</strong>, and Chinese to English <strong>localization</strong></p>
+      <p data-aos="fade-right" class="mx-auto mt-5 max-w-xl text-xl text-amber-900">Our team of professionals has years of in-depth experience with communications work at fast paced tech and web3 startups. We specialize in <strong>community managment</strong>, <strong>token management</strong>, <strong>web development</strong>, <strong>content creation</strong>, and Chinese to English <strong>localization</strong></p>
     </div>
   </div>
 </div>
@@ -60,7 +60,7 @@
 				<p data-aos="fade-right" class="mt-4 text-lg text-white">We offer a range of expert community management, content creation, web development, and localization services aimed at tech and web3 startups with global ambitions.</p>
 			</div>
 			<dl class="mt-12 space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-4 lg:gap-x-8">
-				<div data-aos="fade-left" class="relative">
+				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -71,7 +71,7 @@
 					<dd class="mt-2 ml-9 text-base text-white">We offer 24/7 Telegram and Discord community managment from our team of experienced community managers.</dd>
 				</div>
 
-				<div data-aos="fade-left" class="relative">
+				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -82,7 +82,7 @@
 					<dd class="mt-2 ml-9 text-base text-white">We offer both long and short form content tailored to meet your specific communication needs.</dd>
 				</div>
 
-				<div data-aos="fade-left" class="relative">
+				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -93,7 +93,7 @@
 					<dd class="mt-2 ml-9 text-base text-white">Complete the token listing process for your token on CoinMarketCap, CoingGecko, and DefiLlama.</dd>
 				</div>
 
-				<div data-aos="fade-left" class="relative">
+				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
