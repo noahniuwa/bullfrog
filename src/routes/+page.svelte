@@ -66,7 +66,7 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">Community Management</p>
+						<p class="ml-9 text-lg font-bold leading-6 text-white">Community Management</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">We offer 24/7 Telegram and Discord community managment from our team of experienced community managers.</dd>
 				</div>
@@ -77,7 +77,7 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">Content Creation</p>
+						<p class="ml-9 text-lg font-bold leading-6 text-white">Content Creation</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">We offer both long and short form content tailored to meet your specific communication needs.</dd>
 				</div>
@@ -88,7 +88,7 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">Token Management</p>
+						<p class="ml-9 text-lg font-bold leading-6 text-white">Token Management</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">Complete the token listing process for your token on CoinMarketCap, CoingGecko, and DefiLlama.</dd>
 				</div>
@@ -99,7 +99,7 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">Chinese to English Localization</p>
+						<p class="ml-9 text-lg font-bold leading-6 text-white">Chinese to English Localization</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">Translating and adapting your pitch deck, whitepaper, application UI, or other content to be suitable for Western audiences.</dd>
 				</div>
@@ -110,7 +110,7 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">Token API</p>
+						<p class="ml-9 text-lg font-bold leading-6 text-white">Token API</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">Development and hosting of REST APIs for token data such as total supply, circulating supply, and more.</dd>
 				</div>
@@ -121,7 +121,7 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">Documentation Websites</p>
+						<p class="ml-9 text-lg font-bold leading-6 text-white">Documentation Websites</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">Slick and easy to navigate documentation website done in the style of your choice.</dd>
 				</div>
@@ -132,7 +132,7 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">Token Dashboard</p>
+						<p class="ml-9 text-lg font-bold leading-6 text-white">Token Dashboard</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">A visualization of various token metrics which you can add to your website to display info from your token API in an easy to read format.</dd>
 				</div>
@@ -143,7 +143,7 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">Group Bots</p>
+						<p class="ml-9 text-lg font-bold leading-6 text-white">Group Bots</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">We offer Discord and Telegram bots with a variety of features for the managment of your Telegram or Discord group, and can customize features to meet your needs.</dd>
 				</div>
