@@ -41,7 +41,7 @@
       
           <div class="z-40 relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
             <div>
-              <img on:click={handleClick} class="h-8 cursor-pointer border-amber-900 border rounded absolute right-2 top-2" alt="close icon" src={xIcon}>
+              <img on:click={handleClick} class="h-8 cursor-pointer border-amber-900 border-2 rounded absolute right-2 top-2" alt="close icon" src={xIcon}>
 
             </div>
             <a href="#about" class="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50">
