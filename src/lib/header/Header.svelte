@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-	import logo from './bee-logo.png';
+ 	import logo from './bee-logo.png';
   import xIcon from './x-icon.png';
   import burgerIcon from './burger-icon.png';
 
@@ -11,8 +10,7 @@
 	}
 </script>
 
-	 <!-- This example requires Tailwind CSS v2.0+ -->
-<!-- This example requires Tailwind CSS v2.0+ -->
+
 <header>
   
   <nav class="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 font-quicksand font-bold" aria-label="Top">
@@ -22,11 +20,11 @@
           <img class="h-10 w-auto" src={logo} alt="">
         </a>
         <div class="ml-10 drop-shadow-[0_15px_15px_rgba(0,0,0,0.5)] space-x-8">
-          <a href="#about" class="text-2xl text-amber-900 hover:text-yellow-800">ABOUT</a>
+          <a href="#about" class="border-b-2 border-amber-900 text-2xl text-amber-900 hover:text-yellow-800">ABOUT</a>
 
-          <a href="#services" class="text-2xl text-amber-900 hover:text-yellow-800">SERVICES</a>
+          <a href="#services" class="border-b-2 border-amber-900 text-2xl text-amber-900 hover:text-yellow-800">SERVICES</a>
 
-          <a href="#contact" class="text-2xl  text-amber-900 hover:text-yellow-800">CONTACT</a>
+          <a href="#contact" class="border-b-2 border-amber-900 text-2xl  text-amber-900 hover:text-yellow-800">CONTACT</a>
 
         </div>
 

@@ -4,10 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mono: ['IBM Plex Mono', 'monospace'],
-        ubuntu: ['Ubuntu', 'monospace'],
-        majorMono: ['Major Mono Display', 'monospace'],
-        quicksand: ['Quicksand', 'monospace'],
+        quicksand: ['Quicksand', 'sans-serif'],
+        lobster: ['Lobster', 'sans-serif'],
+
       },
       colors: {
         'dark-honey': '#78350f',

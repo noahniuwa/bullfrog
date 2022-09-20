@@ -1,26 +1,34 @@
 <script lang="ts">
 	import Header from '$lib/header/Header.svelte';
 	import marketingGif from "./images/marketing.gif";
+	import AOS from 'aos'
+	import { onMount } from 'svelte';
 
+	onMount(() => {
+    AOS.init();
+		console.log(AOS)
+  });
 </script>
 
 <svelte:head>
-	<title>Beekeeper</title>
-	<meta name="description" content="Bullfrog professional services" />
+	<title>Hive</title>
+	<meta name="description" content="Hive professional services" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</svelte:head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@400;700&display=swap" rel="stylesheet"> 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+ </svelte:head>
 
 <section class="animated-bg">
 	<!-- This example requires Tailwind CSS v2.0+ -->
 	<Header />
-	<div class="max-w-4xl mt-10 	 mx-auto flex">
-		<div class="z-10 drop-shadow-[0_15px_15px_rgba(0,0,0,0.5)] max-w-xl  py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
+	<div class="max-w-5xl mt-10 	 mx-auto flex">
+		<div class="z-10 drop-shadow-[0_15px_15px_rgba(0,0,0,0.5)] py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
 			<h2
-				class=" sm:text-left text-center drop-shadow pb-10 text-4xl font-quicksand font-bold tracking-tight text-white sm:text-5xl"
+				class="sm:text-left text-center drop-shadow pb-10 text-4xl font-quicksand font-bold tracking-tight text-white sm:text-5xl"
 			>
-				<span class="font-quicksand block">We help tech startups <span class="text-yellow-300 flicker-4">communicate</span> their ideas so they
+				<span class="font-quicksand  block">We help tech startups <span class="text-yellow-300 inline-block heartbeat">communicate</span> their ideas so they
 					can focus on building!
 				</span>
 			</h2>
@@ -35,9 +43,9 @@
 <div class="font-quicksand bg-honeycomb">
   <div class="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h2 class="text-lg font-semibold text-amber-900">About</h2>
-      <p class="mt-1 text-4xl font-bold tracking-tight text-amber-900 sm:text-5xl lg:text-6xl">Global, experienced, multidisciplinary.</p>
-      <p class="mx-auto mt-5 max-w-xl text-xl text-amber-900">Our team of professionals has years of in-depth experience with communications work at fast paced tech and web3 startups. We specialize in <strong>community managment</strong>, <strong>token management</strong>, <strong>web development</strong>, <strong>content creation</strong>, and Chinese to English <strong>localization</strong></p>
+      <h2 data-aos="fade-right" class="text-lg  font-semibold text-amber-900">About</h2>
+      <p data-aos="fade-right" class="mt-1 text-4xl max-w-4xl mx-auto font-bold tracking-tight text-amber-900 sm:text-5xl lg:text-6xl">Global, experienced, multidisciplinary.</p>
+      <p data-aos="fade-left" class="mx-auto mt-5 max-w-xl text-xl text-amber-900">Our team of professionals has years of in-depth experience with communications work at fast paced tech and web3 startups. We specialize in <strong>community managment</strong>, <strong>token management</strong>, <strong>web development</strong>, <strong>content creation</strong>, and Chinese to English <strong>localization</strong></p>
     </div>
   </div>
 </div>
@@ -48,11 +56,11 @@
 	<div class="font-quicksand">
 		<div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
 			<div class="mx-auto max-w-3xl text-center">
-				<h2 class="text-3xl font-bold tracking-tight text-white">SERVICES</h2>
-				<p class="mt-4 text-lg text-white">We offer a range of expert community management, content creation, web development, and localization services aimed at tech and web3 startups with global ambitions.</p>
+				<h2 data-aos="fade-right" class="text-3xl font-bold tracking-tight text-white">SERVICES</h2>
+				<p data-aos="fade-right" class="mt-4 text-lg text-white">We offer a range of expert community management, content creation, web development, and localization services aimed at tech and web3 startups with global ambitions.</p>
 			</div>
 			<dl class="mt-12 space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-4 lg:gap-x-8">
-				<div class="relative">
+				<div data-aos="fade-left" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -63,7 +71,7 @@
 					<dd class="mt-2 ml-9 text-base text-white">We offer 24/7 Telegram and Discord community managment from our team of experienced community managers.</dd>
 				</div>
 
-				<div class="relative">
+				<div data-aos="fade-left" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -74,7 +82,7 @@
 					<dd class="mt-2 ml-9 text-base text-white">We offer both long and short form content tailored to meet your specific communication needs.</dd>
 				</div>
 
-				<div class="relative">
+				<div data-aos="fade-left" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -85,7 +93,7 @@
 					<dd class="mt-2 ml-9 text-base text-white">Complete the token listing process for your token on CoinMarketCap, CoingGecko, and DefiLlama.</dd>
 				</div>
 
-				<div class="relative">
+				<div data-aos="fade-left" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -96,7 +104,7 @@
 					<dd class="mt-2 ml-9 text-base text-white">Translating and adapting your pitch deck, whitepaper, application UI, or other content to be suitable for Western audiences.</dd>
 				</div>
 
-				<div class="relative">
+				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -107,7 +115,7 @@
 					<dd class="mt-2 ml-9 text-base text-white">Development and hosting of REST APIs for token data such as total supply, circulating supply, and more.</dd>
 				</div>
 
-				<div class="relative">
+				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -118,7 +126,7 @@
 					<dd class="mt-2 ml-9 text-base text-white">Slick and easy to navigate documentation website done in the style of your choice.</dd>
 				</div>
 
-				<div class="relative">
+				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -129,7 +137,7 @@
 					<dd class="mt-2 ml-9 text-base text-white">A visualization of various token metrics which you can add to your website to display info from your token API in an easy to read format.</dd>
 				</div>
 
-				<div class="relative">
+				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -146,7 +154,7 @@
 
 <section id="contact" class="bg-3">
 	<!-- This example requires Tailwind CSS v2.0+ -->
-	<div class="font-quicksand ">
+	<div data-aos="fade-up" class="font-quicksand ">
 		<div class="mx-auto max-w-2xl py-16 px-4 text-center sm:py-20 sm:px-6 lg:px-8">
 			<h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">
 				<span class="block">Schedule a consultation.</span>
@@ -184,3 +192,4 @@ background-position: center;
 background-size: cover;
 	}
 </style>
+
