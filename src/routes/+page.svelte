@@ -30,7 +30,7 @@
 	
 
 </section>
-<section class=" bg-4">
+<section id="about" class="bg-4">
 	<!-- This example requires Tailwind CSS v2.0+ -->
 <div class="font-quicksand bg-honeycomb">
   <div class="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
@@ -41,15 +41,15 @@
     </div>
   </div>
 </div>
-
 </section>
-<section class=" bg-2">
+
+<section id="services" class="bg-2">
 	 <!-- This example requires Tailwind CSS v2.0+ -->
 	<div class="font-quicksand">
 		<div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
 			<div class="mx-auto max-w-3xl text-center">
-				<h2 class="text-3xl font-bold tracking-tight text-white">All-in-one platform</h2>
-				<p class="mt-4 text-lg text-white">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
+				<h2 class="text-3xl font-bold tracking-tight text-white">SERVICES</h2>
+				<p class="mt-4 text-lg text-white">We offer a range of expert community management, content creation, web development, and localization services aimed at tech and web3 startups with global ambitions.</p>
 			</div>
 			<dl class="mt-12 space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-4 lg:gap-x-8">
 				<div class="relative">
@@ -58,9 +58,9 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">Invite team members</p>
+						<p class="ml-9 text-lg font-medium leading-6 text-white">Community Management</p>
 					</dt>
-					<dd class="mt-2 ml-9 text-base text-white">Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.</dd>
+					<dd class="mt-2 ml-9 text-base text-white">We offer 24/7 Telegram and Discord community managment from our team of experienced community managers.</dd>
 				</div>
 
 				<div class="relative">
@@ -69,9 +69,9 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">Notifications</p>
+						<p class="ml-9 text-lg font-medium leading-6 text-white">Content Creation</p>
 					</dt>
-					<dd class="mt-2 ml-9 text-base text-white">Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.</dd>
+					<dd class="mt-2 ml-9 text-base text-white">We offer both long and short form content tailored to meet your specific communication needs.</dd>
 				</div>
 
 				<div class="relative">
@@ -80,9 +80,9 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">List view</p>
+						<p class="ml-9 text-lg font-medium leading-6 text-white">Token Management</p>
 					</dt>
-					<dd class="mt-2 ml-9 text-base text-white">Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.</dd>
+					<dd class="mt-2 ml-9 text-base text-white">Complete the token listing process for your token on CoinMarketCap, CoingGecko, and DefiLlama.</dd>
 				</div>
 
 				<div class="relative">
@@ -91,9 +91,9 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">Boards</p>
+						<p class="ml-9 text-lg font-medium leading-6 text-white">Chinese to English Localization</p>
 					</dt>
-					<dd class="mt-2 ml-9 text-base text-white">Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.</dd>
+					<dd class="mt-2 ml-9 text-base text-white">Translating and adapting your pitch deck, whitepaper, application UI, or other content to be suitable for Western audiences.</dd>
 				</div>
 
 				<div class="relative">
@@ -102,9 +102,9 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">Keyboard shortcuts</p>
+						<p class="ml-9 text-lg font-medium leading-6 text-white">Token API</p>
 					</dt>
-					<dd class="mt-2 ml-9 text-base text-white">Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.</dd>
+					<dd class="mt-2 ml-9 text-base text-white">Development and hosting of REST APIs for token data such as total supply, circulating supply, and more.</dd>
 				</div>
 
 				<div class="relative">
@@ -113,9 +113,9 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">Reporting</p>
+						<p class="ml-9 text-lg font-medium leading-6 text-white">Documentation Websites</p>
 					</dt>
-					<dd class="mt-2 ml-9 text-base text-white">Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.</dd>
+					<dd class="mt-2 ml-9 text-base text-white">Slick and easy to navigate documentation website done in the style of your choice.</dd>
 				</div>
 
 				<div class="relative">
@@ -124,9 +124,9 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">Calendars</p>
+						<p class="ml-9 text-lg font-medium leading-6 text-white">Token Dashboard</p>
 					</dt>
-					<dd class="mt-2 ml-9 text-base text-white">Sed mi, dapibus turpis orci posuere integer. A porta viverra posuere adipiscing turpis.</dd>
+					<dd class="mt-2 ml-9 text-base text-white">A visualization of various token metrics which you can add to your website to display info from your token API in an easy to read format.</dd>
 				</div>
 
 				<div class="relative">
@@ -135,24 +135,23 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-medium leading-6 text-white">Mobile app</p>
+						<p class="ml-9 text-lg font-medium leading-6 text-white">Group Bots</p>
 					</dt>
-					<dd class="mt-2 ml-9 text-base text-white">Quisque sapien nunc nisl eros. Facilisis sagittis maecenas id dignissim tristique proin sed.</dd>
+					<dd class="mt-2 ml-9 text-base text-white">We offer Discord and Telegram bots with a variety of features for the managment of your Telegram or Discord group, and can customize features to meet your needs.</dd>
 				</div>
 			</dl>
 		</div>
 	</div>
 </section>
-<section class="bg-3">
+
+<section id="contact" class="bg-3">
 	<!-- This example requires Tailwind CSS v2.0+ -->
 	<div class="font-quicksand ">
 		<div class="mx-auto max-w-2xl py-16 px-4 text-center sm:py-20 sm:px-6 lg:px-8">
 			<h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-				<span class="block">Boost your productivity.</span>
-				<span class="block">Start using our app today.</span>
+				<span class="block">Schedule a consultation.</span>
 			</h2>
-			<p class="mt-4 text-lg leading-6 text-white">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.</p>
-			<a href="#" class="mt-8 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-amber-900 hover:bg-indigo-50 sm:w-auto">Sign up for free</a>
+			<a href="mailto:noahmaizels@gmail.com" class="mt-8 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-amber-900 hover:bg-indigo-50 sm:w-auto">Email</a>
 		</div>
 	</div>
 
@@ -181,7 +180,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	.bg-4 {
 		background-color: #FECE2F;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 1000'%3E%3CradialGradient id='a' cx='.5' fx='0' cy='.2' fy='.69' r='.7' gradientTransform='skewX(25) skewY(20)'%3E%3Cstop offset='0' stop-color='%23FFF' stop-opacity='1' /%3E%3Cstop offset='1' stop-color='%23FFF' stop-opacity='0' /%3E%3C/radialGradient%3E%3ClinearGradient id='b' x1='1' x2='0' y1='1' y2='0'%3E%3Cstop offset='0' stop-color='%2378350F' stop-opacity='1' /%3E%3Cstop offset='1' stop-color='%23FECE2F' stop-opacity='1' /%3E%3C/linearGradient%3E%3CradialGradient id='c' cx='.36' fx='.8' cy='.65' fy='.25' r='.6' gradientTransform='skewX(10)'%3E%3Cstop offset='0' stop-color='%23FFF' stop-opacity='1' /%3E%3Cstop offset='1' stop-color='%23FECE2F' stop-opacity='0' /%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='2.8' fx='.84' cy='-2' fy='-2.4' r='2' gradientTransform='skewX(-50) skewY(70)'%3E%3Cstop offset='0' stop-color='%23FECE2F' stop-opacity='1' /%3E%3Cstop offset='1' stop-color='%23FECE2F' stop-opacity='0' /%3E%3C/radialGradient%3E%3Crect fill='url(%23b)' width='100%25' height='100%25' /%3E%3Cg %3E%3Crect fill='url(%23a)' width='100%25' height='100%25' /%3E%3Crect fill='url(%23d)' width='100%25' height='100%25' /%3E%3Crect fill='url(%23c)' width='100%25' height='100%25' /%3E%3C/g%3E%3C/svg%3E");
-
+background-position: center;
 background-size: cover;
 	}
 </style>
