@@ -15,7 +15,7 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <header>
   
-  <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 font-quicksand font-bold" aria-label="Top">
+  <nav class="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 font-quicksand font-bold" aria-label="Top">
     <div class="flex-row items-center justify-between hidden sm:flex w-full  py-6 ">
         <a href="#">
           <span class="sr-only">Logo</span>
@@ -36,9 +36,9 @@
         <span class="sr-only">Logo</span>
         <img class="h-10 w-auto" src={logo} alt="">
       </a>
-      <img on:click={handleClick} class="border-2 cursor-pointer border-black rounded absolute w-8 right-4 top-6 sm:hidden" src={burgerIcon} alt="menu">
+      <img on:click={handleClick} class="border-2 cursor-pointer border-black rounded absolute w-8 right-4 top-6 md:hidden" src={burgerIcon} alt="menu">
 
-      <div class="transition-opacity  lg:hidden block absolute right-0 top-0 z-30 mt-3 w-screen max-w-xs px-2 lg:opacity-0 {menuOpen ? "opicity-100" : "opacity-0 hidden"} ">
+      <div class="transition-opacity  md:hidden block absolute right-0 top-0 z-30 mt-3 w-screen max-w-xs px-2 md:opacity-0 {menuOpen ? "opacity-100" : "opacity-0 hidden"} ">
         <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
       
           <div class="z-40 relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
