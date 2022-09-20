@@ -39,7 +39,7 @@
 		<div class="text-center">
 			<h2 class="text-lg font-semibold text-amber-900">About Beekeeper</h2>
 			<p class="mt-1 text-4xl drop-shadow-[0_15px_15px_rgba(0,0,0,0.5)] font-bold tracking-tight text-amber-900 sm:text-5xl lg:text-6xl">Global, experienced, multidisciplinary.</p>
-			<p class="mx-auto mt-5 max-w-xl text-xl text-amber-900">Our team of professionals has years of in-depth experience with communications work at fast paced tech and web3 startups. We specialize in <strong>community managment</strong>, <strong>token management</strong>, <strong>web development</strong>, <strong>content creation</strong>, and Chinese to English <strong>localization</strong>.</p>
+			<p class="mx-auto mt-5 drop-shadow-[0_15px_15px_rgba(0,0,0,0.5)]  max-w-xl text-xl text-amber-900">Our team of professionals has years of in-depth experience with communications work at fast paced tech and web3 startups. We specialize in <strong>community managment</strong>, <strong>token management</strong>, <strong>web development</strong>, <strong>content creation</strong>, and Chinese to English <strong>localization</strong>.</p>
 		</div>
 	</div>
 	
