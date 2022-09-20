@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-	<title>Hive</title>
+	<title>3Hive</title>
 	<meta name="description" content="Hive professional services" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com">
