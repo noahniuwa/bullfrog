@@ -5,8 +5,15 @@ module.exports = {
     extend: {
       fontFamily: {
         mono: ['IBM Plex Mono', 'monospace'],
-        majorMono: ['Major Mono Display', 'monospace']
-      }
+        ubuntu: ['Ubuntu', 'monospace'],
+        majorMono: ['Major Mono Display', 'monospace'],
+        quicksand: ['Quicksand', 'monospace'],
+      },
+      colors: {
+        'dark-honey': '#78350f',
+        'light-honey': '#FECE2F'
+      },
+
     },
   },
   plugins: [],
