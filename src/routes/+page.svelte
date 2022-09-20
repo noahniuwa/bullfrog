@@ -35,7 +35,7 @@
 <div class="font-quicksand bg-honeycomb">
   <div class="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h2 class="text-lg font-semibold text-amber-900">Pricing</h2>
+      <h2 class="text-lg font-semibold text-amber-900">About</h2>
       <p class="mt-1 text-4xl font-bold tracking-tight text-amber-900 sm:text-5xl lg:text-6xl">Global, experienced, multidisciplinary.</p>
       <p class="mx-auto mt-5 max-w-xl text-xl text-amber-900">Our team of professionals has years of in-depth experience with communications work at fast paced tech and web3 startups. We specialize in <strong>community managment</strong>, <strong>token management</strong>, <strong>web development</strong>, <strong>content creation</strong>, and Chinese to English <strong>localization</strong></p>
     </div>
