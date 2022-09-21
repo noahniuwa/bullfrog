@@ -37,7 +37,7 @@
 			<h2
 				class=" mx-auto text-center pb-10 text-xl font-quicksand font-bold tracking-tight text-white sm:text-xl"
 			>
-				<span class="font-quicksand block"><span class="text-yellow-300">3Hive</span> helps tech and web3 startups <span class="text-yellow-300 inline-block heartbeat">communicate</span> their ideas so they
+				<span class="font-quicksand block"><span class="text-yellow-200">3Hive</span> helps tech and web3 startups <span class="text-yellow-200 inline-block heartbeat">communicate</span> their ideas so they
 					can focus on building!
 				</span>
 			</h2>
