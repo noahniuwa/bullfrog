@@ -52,7 +52,7 @@
 <div class="font-quicksand bg-honeycomb">
   <div class="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h2 data-aos="fade-right" class="text-lg  font-semibold text-amber-900">About</h2>
+      <h2 data-aos="fade-right" class="text-lg  font-semibold text-amber-900">About Us</h2>
       <p data-aos="fade-right" class="mt-1 text-4xl max-w-4xl mx-auto font-bold tracking-tight text-amber-900 sm:text-5xl lg:text-6xl">Global, experienced, multidisciplinary.</p>
       <p data-aos="fade-right" class="mx-auto mt-5 max-w-xl text-xl text-amber-900">Our team of professionals has years of in-depth experience with communications work at fast paced tech and web3 startups. We specialize in <strong>community managment</strong>, <strong>token management</strong>, <strong>web development</strong>, <strong>content creation</strong>, and Chinese to English <strong>localization</strong></p>
     </div>
@@ -152,7 +152,7 @@
 						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
 						</svg>
-						<p class="ml-9 text-lg font-bold leading-6 text-white">Group Bots</p>
+						<p class="ml-9 text-lg font-bold leading-6 text-white">Chat	 Bots</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">We offer Discord and Telegram bots with a variety of features for the managment of your Telegram or Discord group, and can customize features to meet your needs.</dd>
 				</div>
