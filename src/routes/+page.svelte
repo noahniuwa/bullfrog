@@ -27,7 +27,7 @@
 <section class="animated-bg">
 	<!-- This example requires Tailwind CSS v2.0+ -->
 	<Header />
-	<div class="max-w-lg mt-10 	 mx-auto flex">
+	<div class="max-w-lg mt-10 pb-20 	 mx-auto flex">
 		
 		<div class="z-10 drop-shadow-[0_15px_15px_rgba(0,0,0,0.5)] py-12 text-center  lg:py-16 ">
 			<img class="mx-auto w-[100px]" src={bee}>
@@ -47,7 +47,7 @@
 </section>
 </div>
 
-<section id="about" class="bg-4">
+<section id="about" class="pt-10 pb-20 bg-4">
 	<!-- This example requires Tailwind CSS v2.0+ -->
 <div class="font-quicksand bg-honeycomb">
   <div class="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
@@ -60,7 +60,7 @@
 </div>
 </section>
 
-<section id="services" class="bg-2">
+<section id="services" class="py-20 bg-2">
 	 <!-- This example requires Tailwind CSS v2.0+ -->
 	<div class="font-quicksand">
 		<div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
