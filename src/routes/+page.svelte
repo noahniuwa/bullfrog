@@ -2,6 +2,15 @@
 	import Header from '$lib/header/Header.svelte';
 	import marketingGif from "./images/marketing.gif";
 	import bee from "./images/path2.png";
+	import community from "./images/community.svg";
+	import api from "./images/api.svg";
+	import bot from "./images/bot.svg";
+	import documentation from "./images/documentation.svg";
+	import dashboard from "./images/dashboard.svg";
+	import content from "./images/content.svg";
+	import token from "./images/token.svg";
+	import translation from "./images/translation.svg";
+
 
 	import AOS from 'aos'
 	import { onMount } from 'svelte';
@@ -60,7 +69,7 @@
 </div>
 </section>
 
-<section id="services" class="py-20 bg-2">
+<section id="services" class="py-20 px-10 bg-2">
 	 <!-- This example requires Tailwind CSS v2.0+ -->
 	<div class="font-quicksand">
 		<div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
@@ -72,9 +81,8 @@
 				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-						</svg>
+						<img src={community} class="absolute h-6 w-6 text-yellow-300">
+						
 						<p class="ml-9 text-lg font-bold leading-6 text-white">Community Management</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">We offer 24/7 Telegram and Discord community managment from our team of experienced community managers.</dd>
@@ -83,9 +91,8 @@
 				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-						</svg>
+						<img src={content} class="absolute h-6 w-6 text-yellow-300">
+
 						<p class="ml-9 text-lg font-bold leading-6 text-white">Content Creation</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">We offer both long and short form content tailored to meet your specific communication needs.</dd>
@@ -94,9 +101,8 @@
 				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-						</svg>
+						<img src={token} class="absolute h-6 w-6 text-yellow-300">
+
 						<p class="ml-9 text-lg font-bold leading-6 text-white">Token Management</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">Complete the token listing process for your token on CoinMarketCap, CoingGecko, and DefiLlama.</dd>
@@ -105,9 +111,8 @@
 				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-						</svg>
+						<img src={translation} class="absolute h-6 w-6 text-yellow-300">
+
 						<p class="ml-9 text-lg font-bold leading-6 text-white">Chinese to English Localization</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">Translating and adapting your pitch deck, whitepaper, application UI, or other content to be suitable for Western audiences.</dd>
@@ -116,9 +121,8 @@
 				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-						</svg>
+						<img src={api} class="absolute h-6 w-6 text-yellow-300">
+
 						<p class="ml-9 text-lg font-bold leading-6 text-white">Token API</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">Development and hosting of REST APIs for token data such as total supply, circulating supply, and more.</dd>
@@ -127,9 +131,8 @@
 				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-						</svg>
+						<img src={documentation} class="absolute h-6 w-6 text-yellow-300">
+
 						<p class="ml-9 text-lg font-bold leading-6 text-white">Documentation Websites</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">Slick and easy to navigate documentation website done in the style of your choice.</dd>
@@ -138,9 +141,8 @@
 				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-						</svg>
+						<img src={dashboard} class="absolute h-6 w-6 text-yellow-300">
+
 						<p class="ml-9 text-lg font-bold leading-6 text-white">Token Dashboard</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">A visualization of various token metrics which you can add to your website to display info from your token API in an easy to read format.</dd>
@@ -149,10 +151,9 @@
 				<div data-aos="fade-right" class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-						</svg>
-						<p class="ml-9 text-lg font-bold leading-6 text-white">Chat	 Bots</p>
+						<img src={bot} class="absolute h-6 w-6 text-yellow-300">
+
+						<p class="ml-9 text-lg font-bold leading-6 text-white">Chat	Bots</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-white">We offer Discord and Telegram bots with a variety of features for the managment of your Telegram or Discord group, and can customize features to meet your needs.</dd>
 				</div>
@@ -183,6 +184,8 @@ background-color: #78350F;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cg stroke='%23FFF' stroke-width='0'%3E%3Ccircle fill='%2378350f' cx='800' cy='-378' r='1500'/%3E%3Cellipse fill='%237f3b11' cx='800' cy='-324' rx='1430' ry='1438'/%3E%3Cellipse fill='%23874112' cx='800' cy='-270' rx='1360' ry='1376'/%3E%3Cellipse fill='%238e4813' cx='800' cy='-216' rx='1290' ry='1315'/%3E%3Cellipse fill='%23954e15' cx='800' cy='-162' rx='1220' ry='1253'/%3E%3Cellipse fill='%239c5516' cx='800' cy='-108' rx='1150' ry='1192'/%3E%3Cellipse fill='%23a35b17' cx='800' cy='-54' rx='1080' ry='1130'/%3E%3Cellipse fill='%23aa6218' cx='800' cy='0' rx='1010' ry='1068'/%3E%3Cellipse fill='%23b1691a' cx='800' cy='54' rx='940' ry='1007'/%3E%3Cellipse fill='%23b8701b' cx='800' cy='108' rx='870' ry='945'/%3E%3Cellipse fill='%23be771c' cx='800' cy='162' rx='800' ry='884'/%3E%3Cellipse fill='%23c57f1d' cx='800' cy='216' rx='730' ry='822'/%3E%3Cellipse fill='%23cb861f' cx='800' cy='270' rx='660' ry='760'/%3E%3Cellipse fill='%23d28e20' cx='800' cy='324' rx='590' ry='699'/%3E%3Cellipse fill='%23d89521' cx='800' cy='378' rx='520' ry='637'/%3E%3Cellipse fill='%23de9d23' cx='800' cy='432' rx='450' ry='576'/%3E%3Cellipse fill='%23e3a525' cx='800' cy='486' rx='380' ry='514'/%3E%3Cellipse fill='%23e9ad26' cx='800' cy='540' rx='310' ry='452'/%3E%3Cellipse fill='%23efb528' cx='800' cy='594' rx='240' ry='391'/%3E%3Cellipse fill='%23f4bd2a' cx='800' cy='648' rx='170' ry='329'/%3E%3Cellipse fill='%23f9c62d' cx='800' cy='702' rx='100' ry='268'/%3E%3Cellipse fill='%23fece2f' cx='800' cy='756' rx='30' ry='206'/%3E%3C/g%3E%3C/svg%3E");
  background-size: cover;
 	} 
+
+ 
 	.bg-2 {
 		background-color: #78350F;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3Cpath id='p' d='M89 17c71 35 1 79-39 50-64-45 23-103 86-37 52 54-49 93-86 60-27-23 17-72 51-49 35 24 2 108-69 63-67-43-19-125 57-87z' /%3E%3Ccircle id='a' r='2' %3E%3CanimateMotion dur='38s' repeatCount='5'%3E%3Cmpath href='%23p' /%3E%3C/animateMotion%3E%3C/circle%3E%3Ccircle id='b' r='2' %3E%3CanimateMotion begin='-10s' dur='38s' repeatCount='5' keyPoints='1%3B0' keyTimes='0%3B1' calcMode='linear'%3E%3Cmpath href='%23p' /%3E%3C/animateMotion%3E%3C/circle%3E%3Ccircle id='e' r='2' %3E%3CanimateMotion begin='-34s' dur='38s' repeatCount='5' keyPoints='1%3B0' keyTimes='0%3B1' calcMode='linear'%3E%3Cmpath href='%23p' /%3E%3C/animateMotion%3E%3C/circle%3E%3Ccircle id='c' r='2' %3E%3CanimateMotion begin='-20s' dur='38s' repeatCount='5' keyPoints='1%3B0' keyTimes='0%3B1' calcMode='linear'%3E%3Cmpath href='%23p' /%3E%3C/animateMotion%3E%3C/circle%3E%3Ccircle id='d' r='2' %3E%3CanimateMotion begin='-30s' dur='38s' repeatCount='5'%3E%3Cmpath href='%23p' /%3E%3C/animateMotion%3E%3C/circle%3E%3Ccircle id='f' r='2' %3E%3CanimateMotion begin='-15s' dur='38s' repeatCount='5'%3E%3Cmpath href='%23p' /%3E%3C/animateMotion%3E%3C/circle%3E%3C/defs%3E%3Cg fill='%23FECE2F' %3E%3Cg stroke='%23FFF' stroke-width='0'%3E%3Cuse href='%23a' x='100' y='100'%3E%3C/use%3E%3Cuse href='%23b' x='300' y='300'%3E%3C/use%3E%3Cuse href='%23c' x='500' y='500'%3E%3C/use%3E%3Cuse href='%23d' x='700' y='700'%3E%3C/use%3E%3Cuse href='%23a' x='900' y='0'%3E%3C/use%3E%3Cuse href='%23b' x='1100' y='700'%3E%3C/use%3E%3Cuse href='%23c' x='1300' y='300'%3E%3C/use%3E%3Cuse href='%23d' x='1500' y='500'%3E%3C/use%3E%3Cuse href='%23a' x='200' y='400'%3E%3C/use%3E%3Cuse href='%23b' x='400' y='600'%3E%3C/use%3E%3Cuse href='%23f' x='600' y='800'%3E%3C/use%3E%3Cuse href='%23d' x='800' y='200'%3E%3C/use%3E%3Cuse href='%23b' x='1000' y='0'%3E%3C/use%3E%3Cuse href='%23a' x='1200' y='400'%3E%3C/use%3E%3Cuse href='%23c' x='1400' y='1000'%3E%3C/use%3E%3Cuse href='%23d' x='1600' y='200'%3E%3C/use%3E%3Cuse href='%23a' x='50' y='750'%3E%3C/use%3E%3Cuse href='%23b' x='150' y='600'%3E%3C/use%3E%3Cuse href='%23c' x='350' y='800'%3E%3C/use%3E%3Cuse href='%23d' x='450' y='150'%3E%3C/use%3E%3Cuse href='%23b' x='550' y='50'%3E%3C/use%3E%3Cuse href='%23a' x='750' y='600'%3E%3C/use%3E%3Cuse href='%23f' x='650' y='400'%3E%3C/use%3E%3Cuse href='%23c' x='950' y='200'%3E%3C/use%3E%3Cuse href='%23b' x='1350' y='700'%3E%3C/use%3E%3Cuse href='%23d' x='1250' y='400'%3E%3C/use%3E%3Cuse href='%23c' x='1050' y='550'%3E%3C/use%3E%3Cuse href='%23a' x='1450' y='50'%3E%3C/use%3E%3Cuse href='%23a' x='-100' y='0'%3E%3C/use%3E%3Cuse href='%23b' x='0' y='200'%3E%3C/use%3E%3Cuse href='%23c' x='-50' y='400'%3E%3C/use%3E%3Cuse href='%23d' x='50' y='600'%3E%3C/use%3E%3Cuse href='%23b' x='250' y='-50'%3E%3C/use%3E%3Cuse href='%23a' x='640' y='0'%3E%3C/use%3E%3Cuse href='%23f' x='390' y='-80'%3E%3C/use%3E%3Cuse href='%23e' x='450' y='300'%3E%3C/use%3E%3Cuse href='%23b' x='820' y='700'%3E%3C/use%3E%3Cuse href='%23d' x='970' y='400'%3E%3C/use%3E%3Cuse href='%23c' x='1150' y='-40'%3E%3C/use%3E%3Cuse href='%23a' x='1250' y='820'%3E%3C/use%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
