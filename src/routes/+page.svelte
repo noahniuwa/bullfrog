@@ -19,6 +19,8 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
  </svelte:head>
+<div class="bg-5">
+
 
 <section class="animated-bg">
 	<!-- This example requires Tailwind CSS v2.0+ -->
@@ -35,9 +37,8 @@
 		</div>
 		<img class="sm:brightness-90 brightness-50 sm:h-96 h-80 sm:opacity-100 opacity-70 sm:relative z-0 left-0 right-0 mx-auto top-20 sm:top-0 bottom-0 absolute" src={marketingGif} alt="">
 	</div>
-	
-
 </section>
+</div>
 <section id="about" class="bg-4">
 	<!-- This example requires Tailwind CSS v2.0+ -->
 <div class="font-quicksand bg-honeycomb">
@@ -167,9 +168,8 @@
 <style>	
 
 	.animated-bg {
-		background-color: #FECE2F;
+		background-color: rgba(118, 164, 45, 0);
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3000 1800'%3E%3Cdefs%3E%3Cpath id='a' fill='%2378350f' fill-opacity='.7' d='M4002.8.3C3620.4 14 3647 280.9 3371.4 340.6s-433.8-225-723.3-111.8-339.6 465.3-489.3 557.8c-149.7 92.5-562.5-20.8-728.1 120.4s-111.8 539.2-238.8 700.2-555.5 132.2-679.3 353.4c-123.9 221.2 108.6 547.6 38.2 762.1S48 3037.7 10.9 3286.3s307.8 453.1 316.8 713.7S-60.6 4385.1 8 4698.2s414.7 262.9 537.9 565.7c123.2 302.8-228 480.4-36 771s456.2 107.4 673 347 18.8 538 247.8 711.1c229 173.1 443.6-30.5 728.1 120.4s143.1 452.9 483 555.6 409.8-153.1 715.8-112c306 41.1 329.7 354.2 645.2 342.7s302.7-293.2 631.4-340.3c328.7-47.1 496 198.7 723.3 111.8s343.6-468.3 477.1-550.7c133.6-82.5 566.4 21.2 735.6-123.8 169.2-145 110.8-536.1 243.5-704 132.6-167.8 557.7-136.8 679.3-353.4s-99.6-579.6-38.2-762.1c61.4-182.5 507.3-353.9 539.9-563.6 32.6-209.7-311.2-506.8-316.8-713.7-5.7-206.8 358.7-509.6 319-701.6-39.7-192-470.7-390.9-537.3-562.3-66.6-171.4 163.6-571.8 36-771-127.6-199.2-504.6-179.3-661-345.2s-7-522.6-259.8-712.8-519-4.7-740.2-127.3-197.7-463.1-470.8-548.7-534.7 88.1-719.4 55S4290-10 4002.8.3z' /%3E%3C/defs%3E%3Cg transform='translate(0 120)' %3E%3Cg transform='translate(-2500 200) scale(1 .4)' stroke='%2378350f' stroke-width='1'%3E%3Cg%3E%3Cuse href='%23a' y='-100'%3E%3CanimateTransform attributeName='transform' type='rotate' repeatCount='indefinite' dur='52s' begin='-17s' values='0 4000 4000%3B360 4000 4000' %3E%3C/animateTransform%3E%3C/use%3E%3Cuse href='%23a' x='-100' y='150'%3E%3CanimateTransform attributeName='transform' type='rotate' repeatCount='indefinite' begin='-5s' dur='48.3s' values='0 4000 4000%3B360 4000 4000' %3E%3C/animateTransform%3E%3C/use%3E%3Cuse href='%23a' x='50' y='100'%3E%3CanimateTransform attributeName='transform' type='rotate' repeatCount='indefinite' dur='44.7s' values='0 4000 4000%3B360 4000 4000' %3E%3C/animateTransform%3E%3C/use%3E%3Cuse href='%23a' x='100'%3E%3CanimateTransform attributeName='transform' type='rotate' repeatCount='indefinite' begin='-14s' dur='40.9s' values='0 4000 4000%3B360 4000 4000' %3E%3C/animateTransform%3E%3C/use%3E%3CanimateTransform attributeName='transform' type='rotate' repeatCount='indefinite' dur='50s' values='360 4000 4000%3B0 4000 4000'%3E%3C/animateTransform%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-
 background-size: cover;
 	} 
 	.bg-2 {
@@ -190,6 +190,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 1000'%3E%3CradialGradient id='a' cx='.5' fx='0' cy='.2' fy='.69' r='.7' gradientTransform='skewX(25) skewY(20)'%3E%3Cstop offset='0' stop-color='%23FFF' stop-opacity='1' /%3E%3Cstop offset='1' stop-color='%23FFF' stop-opacity='0' /%3E%3C/radialGradient%3E%3ClinearGradient id='b' x1='1' x2='0' y1='1' y2='0'%3E%3Cstop offset='0' stop-color='%2378350F' stop-opacity='1' /%3E%3Cstop offset='1' stop-color='%23FECE2F' stop-opacity='1' /%3E%3C/linearGradient%3E%3CradialGradient id='c' cx='.36' fx='.8' cy='.65' fy='.25' r='.6' gradientTransform='skewX(10)'%3E%3Cstop offset='0' stop-color='%23FFF' stop-opacity='1' /%3E%3Cstop offset='1' stop-color='%23FECE2F' stop-opacity='0' /%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='2.8' fx='.84' cy='-2' fy='-2.4' r='2' gradientTransform='skewX(-50) skewY(70)'%3E%3Cstop offset='0' stop-color='%23FECE2F' stop-opacity='1' /%3E%3Cstop offset='1' stop-color='%23FECE2F' stop-opacity='0' /%3E%3C/radialGradient%3E%3Crect fill='url(%23b)' width='100%25' height='100%25' /%3E%3Cg %3E%3Crect fill='url(%23a)' width='100%25' height='100%25' /%3E%3Crect fill='url(%23d)' width='100%25' height='100%25' /%3E%3Crect fill='url(%23c)' width='100%25' height='100%25' /%3E%3C/g%3E%3C/svg%3E");
 background-position: center;
 background-size: cover;
+	}
+
+	.bg-5 {
+		background-color: #FECE2F;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 1000'%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23FECE2F' stop-opacity='1' /%3E%3Cstop offset='1' stop-color='%2378350F' stop-opacity='1' /%3E%3C/linearGradient%3E%3CradialGradient id='c' cx='.6' fx='.7' cy='.7' fy='.4' r='.8'%3E%3Cstop offset='0' stop-color='%2378350F' stop-opacity='1' /%3E%3Cstop offset='1' stop-color='%23FECE2F' stop-opacity='0' /%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='.3' fx='1' cy='.9' fy='.7' r='1.3'%3E%3Cstop offset='0' stop-color='%23FFF' stop-opacity='1' /%3E%3Cstop offset='.4' stop-color='%23FECE2F' stop-opacity='0' /%3E%3Cstop offset='1' stop-color='%2378350F' stop-opacity='0' /%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='.1' fx='.3' cy='.5' fy='.3' r='.7' gradientTransform='skewX(25) skewY(20)'%3E%3Cstop offset='0' stop-color='%23FFF' stop-opacity='1' /%3E%3Cstop offset='1' stop-color='%23FFF' stop-opacity='0' /%3E%3C/radialGradient%3E%3CradialGradient id='a' cx='.4' fx='.3' cy='.9' fy='.8' r='.5' gradientTransform='skewX(-30) skewY(-20)'%3E%3Cstop offset='0' stop-color='%23FFF' stop-opacity='1' /%3E%3Cstop offset='1' stop-color='%23FECE2F' stop-opacity='0' /%3E%3C/radialGradient%3E%3Cg %3E%3Crect fill='url(%23b)' width='100%25' height='100%25' /%3E%3Crect fill='url(%23e)' width='100%25' height='100%25' /%3E%3Crect fill='url(%23c)' width='100%25' height='100%25' /%3E%3Crect fill='url(%23d)' width='100%25' height='100%25' /%3E%3Crect fill='url(%23a)' width='100%25' height='100%25' /%3E%3C/g%3E%3C/svg%3E");
+ background-size: cover;
 	}
 </style>
 
