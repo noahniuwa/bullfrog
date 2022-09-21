@@ -4,9 +4,27 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
+
+	
 		%sveltekit.head%
 	</head>
 	<body>
 		<div>%sveltekit.body%</div>
 	</body>
+	<script>
+		VANTA.WAVES({
+  el: "#my-background",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x835300,
+  shininess: 0.00
+})
+	</script>
 </html>
