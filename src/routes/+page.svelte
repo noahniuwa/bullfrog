@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Header from '$lib/header/Header.svelte';
 	import marketingGif from "./images/marketing.gif";
+	import bee from "./images/path2.png";
+
 	import AOS from 'aos'
 	import { onMount } from 'svelte';
 
@@ -25,20 +27,26 @@
 <section class="animated-bg">
 	<!-- This example requires Tailwind CSS v2.0+ -->
 	<Header />
-	<div class="max-w-5xl mt-10 	 mx-auto flex">
-		<div class="z-10 drop-shadow-[0_15px_15px_rgba(0,0,0,0.5)] py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
+	<div class="max-w-lg mt-10 	 mx-auto flex">
+		
+		<div class="z-10 drop-shadow-[0_15px_15px_rgba(0,0,0,0.5)] py-12 text-center  lg:py-16 ">
+			<img class="mx-auto w-[100px]" src={bee}>
+			<br>
+			<h1 class="font-quicksand font-bold tracking-tight text-white text-5xl">We sweat the small stuff.</h1>
+		<br>
 			<h2
-				class="sm:text-left text-center drop-shadow pb-10 text-4xl font-quicksand font-bold tracking-tight text-white sm:text-5xl"
+				class=" mx-auto text-center pb-10 text-xl font-quicksand font-bold tracking-tight text-white sm:text-xl"
 			>
-				<span class="font-quicksand  block">We help tech startups <span class="text-yellow-300 inline-block heartbeat">communicate</span> their ideas so they
+				<span class="font-quicksand block"><span class="text-yellow-300">3Hive</span> helps tech and web3 startups <span class="text-yellow-300 inline-block heartbeat">communicate</span> their ideas so they
 					can focus on building!
 				</span>
 			</h2>
 		</div>
-		<img class="sm:brightness-90 brightness-50 sm:h-96 h-80 sm:opacity-100 opacity-70 sm:relative z-0 left-0 right-0 mx-auto top-20 sm:top-0 bottom-0 absolute" src={marketingGif} alt="">
+		<!-- <img class="sm:brightness-90 brightness-50 sm:h-96 h-80 sm:opacity-100 opacity-70 sm:relative z-0 left-0 right-0 mx-auto top-20 sm:top-0 bottom-0 absolute" src={marketingGif} alt=""> -->
 	</div>
 </section>
 </div>
+
 <section id="about" class="bg-4">
 	<!-- This example requires Tailwind CSS v2.0+ -->
 <div class="font-quicksand bg-honeycomb">
