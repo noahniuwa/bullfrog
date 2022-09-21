@@ -17,7 +17,7 @@
 <header>
   
   <nav class="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 font-quicksand font-bold" aria-label="Top">
-    <div class="flex-row items-center justify-between hidden sm:flex w-full  py-6 ">
+    <div class="flex-row items-center justify-between hidden sm:flex w-full pt-6 ">
         <a class="" href="#">
           <span class="sr-only">Logo</span>
           <img class="h-10 w-auto" src={logo} alt="">
